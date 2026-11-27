@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+ui-tests/node_modules/
+api/node_modules/
+
+
+# Playwright
+ui-tests/test-results/
+ui-tests/playwright-report/
+ui-tests/blob-report/
+ui-tests/playwright/.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temp / local
+.tmp/
+*.log
+.env
+*.zip
