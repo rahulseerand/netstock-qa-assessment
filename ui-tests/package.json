@@ -1,0 +1,18 @@
+{
+  "name": "netstock-ui-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + TypeScript UI tests for automationintesting.online",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report",
+    "test:video": "playwright test --project=chromium --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
